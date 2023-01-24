@@ -23,7 +23,7 @@ body{
 
 header{
     color: white;
-    background-image: url(../img/jumbo.png);
+    background-image: url(../img/jumbo.png);  /* Sfondo Header */
     background-size: cover;
 }
 
@@ -64,27 +64,27 @@ Regole Setup struttura (da rimuovere in seguito)
     height: 500px;
 }
 
-.setup .last_main{
+/* .setup .last_main{
     height: 800px;
-}
+} */
 
-.setup .big{
+/* .setup .image_main{
     height: 450px;
     background-color: rgb(76, 99, 249);
     border: 1px dashed black;
 }
 
-.setup .small{
+.setup .content_main{
     height: 450px;
     background-color: pink;
     border: 1px dashed black;
-}
+} */
 
-.setup .last_col{
+/* .setup .last_col{
     height: 700px;
     background-color: rgb(1, 123, 11);
     border: 1px dashed black;
-}
+} */
 
 .setup .top_footer{
     height: 550px;
@@ -191,7 +191,6 @@ button.top_header_button {
     line-height: 30px;
     font-size: 20px;
     padding: 50px 0;
-
 }
 
 .bottom_header_text > p {
@@ -216,42 +215,52 @@ button.top_header_button {
 
 
 
-
 /* 
 ----------------------------------
  Main
 ----------------------------------
 */
 
-.big{
+
+
+.content_main h2{
+    font-size: 40px;
+}
+
+.main_text{
+    line-height: 30px;
+    font-size: 20px;
+    padding: 40px 0;
+}
+
+.image_main{
     width: 800px;
+    text-align: center;
   }
   
-.small{
+.content_main{
      width: 400px;
   }
 
-.top_main{
+
+.top_main, .central_main, .bottom_main{
     display:flex;
-    justify-content:center;
+    justify-content: center;
     align-items: center;
 }
 
 .central_main{
-    display:flex;
     flex-direction: row-reverse;
-    justify-content:center;
-    align-items: center;
-}
-
-.bottom_main{
-    display:flex;
-    justify-content:center;
-    align-items: center;
 }
 
 .last_main{
+    text-align: center;
     padding: 50px;
+}
+
+.last_col h2{
+    padding-top: 20px;
+    font-size: 40px;
 }
 
 
