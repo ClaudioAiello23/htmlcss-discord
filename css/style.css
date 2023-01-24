@@ -270,7 +270,7 @@ button.top_header_button {
 }
 
 .last_col .download_button{
-    background-color: rgb(78, 119, 244);
+    background-color: rgb(97, 125, 209);
     color: white;
 }
 
@@ -292,7 +292,7 @@ Footer
 */
 
 footer{
-    background-color: black;
+    background-color: rgb(83, 81, 81);
 }
 
 .top_footer{
@@ -305,9 +305,51 @@ footer{
     width: 400px;
 }
 
+.big_footer h3{
+    padding: 50px 50px 10px 50px;
+    font-size: 30px;
+    color: rgb(97, 125, 209);
+}
+
+.italia{
+    padding-left: 50px;
+    color: white;
+}
+
+.big_footer img{
+    width: 25px;
+    height: auto;
+}
+
+.social{
+    display:inline-block;
+    padding: 10px 0 0 50px;
+}
+
+
 .small_footer{
     width: 200px;
 }
+
+footer nav a{
+    text-decoration: none;
+}
+
+.small ul li{
+    list-style: none;
+    font-size: 20px;
+    line-height: 10px;
+    padding-top: 50px;
+}
+
+.foot_title{
+    color:rgb(97, 125, 209);
+}
+
+footer nav a:visited{ 
+    color: black;
+ }
+
 
 .bottom_footer{
     display: flex;
