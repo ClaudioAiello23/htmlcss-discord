@@ -23,6 +23,8 @@ body{
 
 header{
     color: white;
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
 }
 
 header .top_header_text, main .last_col, footer .bottom_footer {
@@ -39,6 +41,7 @@ Regole Setup struttura (da rimuovere in seguito)
 
 /* .setup .top_header{
     height: 100px;
+    background-color: rgb(58, 120, 235);
 } */
 
 /* .setup .top_header_text{
@@ -46,15 +49,16 @@ Regole Setup struttura (da rimuovere in seguito)
     background-color: orange;
 } */
 
-.setup .bottom_header{
-    height: 400px;
-}
+/* .setup .bottom_header{
+    height: 400px; 
+    background-color: rgb(3, 3, 126);
+}  */
 
-.setup .bottom_header_text{
+/* .setup .bottom_header_text{
     background-color: rgb(248, 127, 218);
     height: 350px;
     border: 1px dashed black;
-}
+}  */
 
 .setup .top_main, .central_main, .bottom_main{
     height: 500px;
@@ -122,7 +126,6 @@ Regole Setup struttura (da rimuovere in seguito)
 
 
 .top_header{
-    background-color: rgb(58, 120, 235);
     padding: 25px;
 }
 
@@ -156,13 +159,12 @@ header nav a:visited{
 .login{text-align: right;
 }
 
-button.header_button { 
+button.top_header_button { 
     font-size: 20px;
     width: 100px;
     height: 50px;
     border-radius: 40px;
   } 
-
 
 
 /* 
@@ -172,7 +174,6 @@ button.header_button {
 */
 
 .bottom_header{
-    background-color: rgb(3, 3, 126);
     display:flex;
     align-items: center;
     justify-content: center;
@@ -180,7 +181,7 @@ button.header_button {
 }
 
 .bottom_header_text h1{
-    font-size: 30px;
+    font-size: 40px;
     margin-bottom: 30px;
 }
 
@@ -189,7 +190,32 @@ button.header_button {
     text-align: center;
     line-height: 30px;
     font-size: 20px;
+    padding: 50px 0;
+
 }
+
+.bottom_header_text > p {
+    padding-bottom: 20px;
+}
+
+.download_button{
+    font-size: 20px;
+    height: 50px;
+    width: 200px;
+    border-radius: 40px;
+}
+
+.browser_button{
+    background-color: rgb(30, 28, 28);
+    font-size: 20px;
+    color: white;
+    height: 50px;
+    width: 300px;
+    border-radius: 40px;
+}
+
+
+
 
 /* 
 ----------------------------------
