@@ -31,9 +31,6 @@ Regole Setup struttura (da rimuovere in seguito)
     background-color: orange;
 }
 
-.setup .logo_top,.link, .login{
-    border: 1px dashed black;
-}
 
 .setup .bottom_header_text{
     background-color: rgb(248, 127, 218);
@@ -106,7 +103,7 @@ Regole Setup struttura (da rimuovere in seguito)
 */
 
 
-.top_header{
+ .top_header{
     background-color: lightblue;
     padding: 25px;
 }
@@ -114,33 +111,9 @@ Regole Setup struttura (da rimuovere in seguito)
 .top_header_text {
     max-width: 1200px;
     margin: 0 auto;
-}
-
-.logo_top{
-    float:left;
-    width: 25%;
-}
-
-.link{
-    float:left;
-    width: 50%;
-    text-align: center;
-  }
-
-.login{
-    float: right;
-    width: 25%;
-    text-align: right;
-}
-
-.logo_top, .link, .login{
-    padding: 15px;
-}
-
-.top_header_text::after {
-    content:'';
-    display:block;
-    clear: both;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 
