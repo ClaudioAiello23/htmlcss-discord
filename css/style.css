@@ -128,7 +128,10 @@ Regole Setup struttura (da rimuovere in seguito)
 .link ul li{
     display: inline-block;
     list-style: none;
+
 }
+
+
 
 
 /* 
@@ -142,7 +145,7 @@ Regole Setup struttura (da rimuovere in seguito)
     display:flex;
     align-items: center;
     justify-content: center;
-
+    border-bottom: 4px solid lightblue;
 }
 
 .bottom_header_text{
@@ -207,7 +210,6 @@ footer{
 
 .top_footer{
     padding: 10px;
-    border-bottom: 2px solid grey;
     display: flex;
     justify-content: center;
 }
