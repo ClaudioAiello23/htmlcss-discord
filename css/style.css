@@ -61,9 +61,9 @@ Regole Setup struttura (da rimuovere in seguito)
     border: 1px dashed black;
 }  */
 
-.setup .top_main, .central_main, .bottom_main{
+/* .setup .top_main, .central_main, .bottom_main{
     height: 500px;
-}
+} */
 
 /* .setup .last_main{
     height: 800px;
@@ -103,7 +103,7 @@ Regole Setup struttura (da rimuovere in seguito)
     border: 1px dashed white;
 } */
 
-.setup .bottom_footer{
+/* .setup .bottom_footer{
     height: 100px;
 }
 
@@ -116,7 +116,7 @@ Regole Setup struttura (da rimuovere in seguito)
 .setup .logo_footer, .button_footer{
     border: 1px dashed black;
     background-color: rgb(248, 150, 166);
-}
+} */
 
 
 /* 
@@ -354,7 +354,7 @@ footer nav a:visited{
 .bottom_footer{
     display: flex;
     justify-content: center;
-    align-items: flex-end;
+    align-items: flex-start;
 }
 
 
@@ -362,8 +362,17 @@ footer nav a:visited{
     width: 1200px;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
 }
+
+button.footer_button { 
+    font-size: 20px;
+    width: 100px;
+    height: 50px;
+    border-radius: 40px;
+    color: white;
+    background-color: rgb(97, 125, 209);
+  } 
 
 
 
