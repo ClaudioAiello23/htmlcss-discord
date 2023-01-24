@@ -1,0 +1,256 @@
+
+/* 
+----------------------------------
+Regole generali 
+----------------------------------
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* 
+-------------------------------------
+Regole Setup struttura (da rimuovere in seguito)
+-------------------------------------
+*/
+
+.setup .top_header{
+    height: 100px;
+}
+
+.setup .bottom_header{
+    height: 400px;
+}
+
+.setup .top_header_text{
+    height: 50px;
+    background-color: orange;
+}
+
+.setup .logo_top,.link, .login{
+    border: 1px dashed black;
+}
+
+.setup .bottom_header_text{
+    background-color: rgb(248, 127, 218);
+    height: 350px;
+    border: 1px dashed black;
+}
+
+.setup .top_main, .central_main, .bottom_main{
+    height: 500px;
+}
+
+.setup .last_main{
+    height: 800px;
+}
+
+.setup .big{
+    height: 450px;
+    background-color: rgb(76, 99, 249);
+    border: 1px dashed black;
+}
+
+.setup .small{
+    height: 450px;
+    background-color: pink;
+    border: 1px dashed black;
+}
+
+.setup .huge{
+    height: 700px;
+    background-color: rgb(1, 123, 11);
+    border: 1px dashed black;
+}
+
+.setup .top_footer{
+    height: 550px;
+}
+
+.setup .big_footer{
+    height: 500px;
+    background-color: rgb(249, 104, 128);
+    border: 1px dashed black;
+}
+
+.setup .small_footer{
+    height: 500px;
+    background-color: rgb(0, 146, 139);
+    border: 1px dashed white;
+}
+
+.setup .bottom_footer{
+    height: 100px;
+}
+
+
+.setup .bottom_footer_text{
+    background-color: rgb(70, 250, 220);
+    height: 70px;
+}
+
+.setup .logo_footer, .button_footer{
+    border: 1px dashed black;
+    background-color: rgb(248, 150, 166);
+}
+
+
+/* 
+----------------------------------
+ Top Header
+----------------------------------
+*/
+
+
+.top_header{
+    background-color: lightblue;
+    padding: 25px;
+}
+
+.top_header_text {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.logo_top{
+    float:left;
+    width: 25%;
+}
+
+.link{
+    float:left;
+    width: 50%;
+    text-align: center;
+  }
+
+.login{
+    float: right;
+    width: 25%;
+    text-align: right;
+}
+
+.logo_top, .link, .login{
+    padding: 15px;
+}
+
+.top_header_text::after {
+    content:'';
+    display:block;
+    clear: both;
+}
+
+
+/* 
+----------------------------------
+ Bottom Header
+----------------------------------
+*/
+
+.bottom_header{
+    background-color: rgb(3, 3, 126);
+    display:flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.bottom_header_text{
+    width: 900px;
+}
+
+/* 
+----------------------------------
+ Main
+----------------------------------
+*/
+
+.big{
+    width: 800px;
+  }
+  
+.small{
+     width: 400px;
+  }
+
+.top_main{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+}
+
+.central_main{
+    display:flex;
+    flex-direction: row-reverse;
+    justify-content:center;
+    align-items: center;
+}
+
+.bottom_main{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+}
+
+.last_main{
+    padding: 50px;
+}
+
+.huge{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+ /* INIZIO PROVA SELETTORE AVANZATO ":nth-of-type(even)": tutto quello 
+che ha classe ".content" ed è elemento PARI prende il background grigio.*/
+
+.content:nth-of-type(even){
+    background-color: rgb(196, 196, 196);
+}
+
+
+/* 
+----------------------------------
+Footer
+----------------------------------
+*/
+
+footer{
+    background-color: black;
+}
+
+.top_footer{
+    padding: 10px;
+    border-bottom: 2px solid grey;
+    display: flex;
+    justify-content: center;
+}
+
+.big_footer{
+    width: 400px;
+}
+
+.small_footer{
+    width: 200px;
+}
+
+.bottom_footer{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+
+.bottom_footer_text{
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+
