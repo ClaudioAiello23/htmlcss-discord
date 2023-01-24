@@ -11,6 +11,17 @@ Regole generali
     box-sizing: border-box;
 }
 
+/* 
+----------------------------------
+Common
+----------------------------------
+*/
+
+header .top_header_text, main .last_col, footer .bottom_footer {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
 
 /* 
 -------------------------------------
@@ -58,7 +69,7 @@ Regole Setup struttura (da rimuovere in seguito)
     border: 1px dashed black;
 }
 
-.setup .huge{
+.setup .last_col{
     height: 700px;
     background-color: rgb(1, 123, 11);
     border: 1px dashed black;
@@ -109,11 +120,14 @@ Regole Setup struttura (da rimuovere in seguito)
 }
 
 .top_header_text {
-    max-width: 1200px;
-    margin: 0 auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.link ul li{
+    display: inline-block;
+    list-style: none;
 }
 
 
@@ -172,10 +186,6 @@ Regole Setup struttura (da rimuovere in seguito)
     padding: 50px;
 }
 
-.huge{
-    width: 1200px;
-    margin: 0 auto;
-}
 
  /* INIZIO PROVA SELETTORE AVANZATO ":nth-of-type(even)": tutto quello 
 che ha classe ".content" ed è elemento PARI prende il background grigio.*/
@@ -223,7 +233,6 @@ footer{
     justify-content: space-between;
     align-items: center;
 }
-
 
 
 
