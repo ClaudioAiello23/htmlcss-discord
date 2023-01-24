@@ -22,6 +22,7 @@ body{
 }
 
 header{
+    height: 800px ; /* altezza per includere il background */
     color: white;
     background-image: url(../img/jumbo.png);  /* Sfondo Header */
     background-size: cover;
@@ -177,7 +178,7 @@ button.top_header_button {
     display:flex;
     align-items: center;
     justify-content: center;
-    border-bottom: 4px solid lightblue;
+    padding: 200px;
 }
 
 .bottom_header_text h1{
@@ -280,7 +281,7 @@ button.top_header_button {
 che ha classe ".content" ed è elemento PARI prende il background grigio.*/
 
 .content:nth-of-type(even){
-    background-color: rgb(196, 196, 196);
+    background-color: rgb(236, 235, 235);
 }
 
 
