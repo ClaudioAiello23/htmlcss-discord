@@ -17,6 +17,14 @@ Common
 ----------------------------------
 */
 
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+header{
+    color: white;
+}
+
 header .top_header_text, main .last_col, footer .bottom_footer {
     max-width: 1200px;
     margin: 0 auto;
@@ -29,19 +37,18 @@ Regole Setup struttura (da rimuovere in seguito)
 -------------------------------------
 */
 
-.setup .top_header{
+/* .setup .top_header{
     height: 100px;
-}
+} */
+
+/* .setup .top_header_text{
+    height: 50px;
+    background-color: orange;
+} */
 
 .setup .bottom_header{
     height: 400px;
 }
-
-.setup .top_header_text{
-    height: 50px;
-    background-color: orange;
-}
-
 
 .setup .bottom_header_text{
     background-color: rgb(248, 127, 218);
@@ -114,8 +121,8 @@ Regole Setup struttura (da rimuovere in seguito)
 */
 
 
- .top_header{
-    background-color: lightblue;
+.top_header{
+    background-color: rgb(58, 120, 235);
     padding: 25px;
 }
 
@@ -128,9 +135,33 @@ Regole Setup struttura (da rimuovere in seguito)
 .link ul li{
     display: inline-block;
     list-style: none;
-
+    font-size: 20px;
+    padding-left: 30px;
 }
 
+
+header nav a{
+    text-decoration: none;
+}
+
+header nav a:visited{ 
+    color: white;
+ }
+
+ .link{
+    width: 50%;
+    text-align: center;
+ }
+
+.login{text-align: right;
+}
+
+button.header_button { 
+    font-size: 20px;
+    width: 100px;
+    height: 50px;
+    border-radius: 40px;
+  } 
 
 
 
@@ -148,8 +179,16 @@ Regole Setup struttura (da rimuovere in seguito)
     border-bottom: 4px solid lightblue;
 }
 
+.bottom_header_text h1{
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
 .bottom_header_text{
-    width: 900px;
+    max-width: 900px;
+    text-align: center;
+    line-height: 30px;
+    font-size: 20px;
 }
 
 /* 
