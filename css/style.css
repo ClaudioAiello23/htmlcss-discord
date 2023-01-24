@@ -263,6 +263,18 @@ button.top_header_button {
     font-size: 40px;
 }
 
+.last_col h3{
+    padding: 20px;
+    font-size: 30px;
+}
+
+.last_col .download_button{
+    background-color: rgb(78, 119, 244);
+    color: white;
+}
+
+
+
 
  /* INIZIO PROVA SELETTORE AVANZATO ":nth-of-type(even)": tutto quello 
 che ha classe ".content" ed è elemento PARI prende il background grigio.*/
