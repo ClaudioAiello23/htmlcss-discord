@@ -33,90 +33,10 @@ header .top_header_text, main .last_col, footer .bottom_footer {
     margin: 0 auto;
 }
 
-
-/* 
--------------------------------------
-Regole Setup struttura (da rimuovere in seguito)
--------------------------------------
-*/
-
-/* .setup .top_header{
-    height: 100px;
-    background-color: rgb(58, 120, 235);
-} */
-
-/* .setup .top_header_text{
-    height: 50px;
-    background-color: orange;
-} */
-
-/* .setup .bottom_header{
-    height: 400px; 
-    background-color: rgb(3, 3, 126);
-}  */
-
-/* .setup .bottom_header_text{
-    background-color: rgb(248, 127, 218);
-    height: 350px;
-    border: 1px dashed black;
-}  */
-
-/* .setup .top_main, .central_main, .bottom_main{
-    height: 500px;
-} */
-
-/* .setup .last_main{
-    height: 800px;
-} */
-
-/* .setup .image_main{
-    height: 450px;
-    background-color: rgb(76, 99, 249);
-    border: 1px dashed black;
+nav a{
+    color:white;
+    text-decoration: none;
 }
-
-.setup .content_main{
-    height: 450px;
-    background-color: pink;
-    border: 1px dashed black;
-} */
-
-/* .setup .last_col{
-    height: 700px;
-    background-color: rgb(1, 123, 11);
-    border: 1px dashed black;
-} */
-
-/* .setup .top_footer{
-    height: 550px;
-}
-
-.setup .big_footer{
-    height: 500px;
-    background-color: rgb(249, 104, 128);
-    border: 1px dashed black;
-}
-
-.setup .small_footer{
-    height: 500px;
-    background-color: rgb(0, 146, 139);
-    border: 1px dashed white;
-} */
-
-/* .setup .bottom_footer{
-    height: 100px;
-}
-
-
-.setup .bottom_footer_text{
-    background-color: rgb(70, 250, 220);
-    height: 70px;
-}
-
-.setup .logo_footer, .button_footer{
-    border: 1px dashed black;
-    background-color: rgb(248, 150, 166);
-} */
 
 
 /* 
@@ -143,14 +63,6 @@ Regole Setup struttura (da rimuovere in seguito)
     padding-left: 30px;
 }
 
-
-header nav a{
-    text-decoration: none;
-}
-
-header nav a:visited{ 
-    color: white;
- }
 
  .link{
     width: 50%;
@@ -215,14 +127,11 @@ button.top_header_button {
 }
 
 
-
 /* 
 ----------------------------------
  Main
 ----------------------------------
 */
-
-
 
 .content_main h2{
     font-size: 40px;
@@ -273,9 +182,6 @@ button.top_header_button {
     background-color: rgb(97, 125, 209);
     color: white;
 }
-
-
-
 
  /* INIZIO PROVA SELETTORE AVANZATO ":nth-of-type(even)": tutto quello 
 che ha classe ".content" ed è elemento PARI prende il background grigio.*/
@@ -331,10 +237,6 @@ footer{
     width: 200px;
 }
 
-footer nav a{
-    text-decoration: none;
-}
-
 .small ul li{
     list-style: none;
     font-size: 20px;
@@ -345,11 +247,6 @@ footer nav a{
 .foot_title{
     color:rgb(97, 125, 209);
 }
-
-footer nav a:visited{ 
-    color: white;
- }
-
 
 .bottom_footer{
     display: flex;
