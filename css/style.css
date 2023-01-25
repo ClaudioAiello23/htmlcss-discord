@@ -22,7 +22,6 @@ body{
 }
 
 header{
-    height: 800px ; /* altezza per includere il background */
     color: white;
     background-image: url(../img/jumbo.png);  /* Sfondo Header */
     background-size: cover;
@@ -202,7 +201,7 @@ footer{
 }
 
 .top_footer{
-    padding: 10px;
+    padding: 20px;
     display: flex;
     justify-content: center;
 }
@@ -252,6 +251,8 @@ footer{
     display: flex;
     justify-content: center;
     align-items: flex-start;
+    border-top: 1px solid rgb(97, 125, 209);
+    padding: 20px 0;
 }
 
 
